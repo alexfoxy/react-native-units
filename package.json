@@ -1,6 +1,7 @@
 {
  	"main": "index.js",
- 	"version": "1.0.0",
+ 	"name": "react-native-units",
+ 	"version": "0.1.0",
 	"description": "A collection of useful units and a simple grid implementation for responsive layouts in React Native.",
 	"license": "MIT",
 	"author": "alexfoxy@gmail.com",
