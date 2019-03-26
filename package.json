@@ -10,10 +10,11 @@
 	},
 	"keywords": [
 		"react native",
-		"javascript",
 		"units",
 		"pixels",
 		"grid",
-		"scale"
+		"scale",
+		"javascript",
+		"ios"
 	]
 }

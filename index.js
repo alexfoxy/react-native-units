@@ -23,13 +23,13 @@ class Units {
     this.scale = scale
   }
 
-  setGrid = (cols=this.grid.cols, padding=this.grid.padding, spacing=this.grid.spacing) => {
-    const w = this.window.width - (padding*2) + spacing
-    const colWidth = (w/cols) 
-
+  setGrid = (o) => {
     this.grid = {
-      cols, padding, spacing, colWidth
-    }    
+      ...this.grid, ...o
+    }
+
+    const w = this.window.width - (this.grid.padding*2) + this.grid.spacing
+    this.grid.colWidth = (w/this.grid.cols) 
   }
 
   px = (x=1) => {
