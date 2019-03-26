@@ -50,11 +50,11 @@ RNU.setGrid({
 	spacing: 10 
 })
 ```
-Then use the `gr, gs & gp` units to create your layout. I have created a snack [here](https://snack.expo.io/@alexfoxy/react-native-units-grid-example) which will create the example below.
+Then use the `gr, gs & gp` units to create your layout. I have made a snack [here](https://snack.expo.io/@alexfoxy/react-native-units-grid-example) which will create the example below.
 ![enter image description here](https://i.imgur.com/FbC45qM.png)
 
 ### gr(x=1)
-This unit is equal to one column's width, however it will also include any spacing it encompasses. In this example, if `RNU.gr(1)` is equal to `12dp` then `RNU.gr(2)` will equal `34dp ((12*2)+10)` .
+This unit is equal to one column's width, however it will also include any spacing it encompasses. In this example, if `RNU.gr(1)` is equal to `12dp` then `RNU.gr(2)` will equal `34dp ((12*2)+10)` 
 
 ### gs(x=1)
 The grid spacing. In this example `RNU.gs()` is equal to `10dp`
