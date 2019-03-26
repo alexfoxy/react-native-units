@@ -1,7 +1,7 @@
 {
  	"main": "index.js",
  	"version": "1.0.0",
-	"description": "Useful units and simple grid for react native.",
+	"description": "A collection of useful units and a simple grid implementation for responsive layouts in React Native.",
 	"license": "MIT",
 	"author": "alexfoxy@gmail.com",
 	"repository": {

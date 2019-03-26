@@ -1,6 +1,8 @@
 
 # react-native-units
 
+A collection of useful units and a simple grid implementation for responsive layouts in React Native.
+
 
 ## Available Units
 
