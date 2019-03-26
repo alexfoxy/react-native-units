@@ -1,0 +1,19 @@
+{
+ 	"main": "index.js",
+ 	"version": "1.0.0",
+	"description": "Useful units and simple grid for react native.",
+	"license": "MIT",
+	"author": "alexfoxy@gmail.com",
+	"repository": {
+	  "type" : "git",
+	  "url" : "https://github.com/alexfoxy/react-native-units"
+	},
+	"keywords": [
+		"react native",
+		"javascript",
+		"units",
+		"pixels",
+		"grid",
+		"scale"
+	]
+}
