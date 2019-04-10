@@ -9,9 +9,9 @@ React Native uses *density-independent pixels*, or *dp*, as it's default unit. T
 ## Setup
 Add the package from NPM. No `react-native-link` required.
 ```
-yarn add 'react-native-units'
+yarn add react-native-units
 - or - 
-npm install 'react-native-units'
+npm install react-native-units
 ```
 
 Import the library where you need it:
